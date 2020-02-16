@@ -1,3 +1,39 @@
+commit c692a237949b3c4a7370244c11c7302531d978c2
+Author: mshiyanok <mxshiyanok@mail.ru>
+Date:   Sun Feb 16 13:35:07 2020 +0300
+
+    delete log.txt
+
+commit cff534534b216522018972f48011b4b4b9f7ee45
+Author: mshiyanok <mxshiyanok@mail.ru>
+Date:   Sun Feb 16 13:33:28 2020 +0300
+
+    add log.txt
+
+commit b1288505eeaa7a1cbbae0b2fe940174d6fdce8b4
+Author: mshiyanok <mxshiyanok@mail.ru>
+Date:   Sun Feb 16 13:32:50 2020 +0300
+
+    add .gitignore
+
+commit 5c8993d0b713f69f91ced9d5695d287c65b84f10
+Author: mshiyanok <mxshiyanok@mail.ru>
+Date:   Sun Feb 16 13:29:24 2020 +0300
+
+    add log.txt
+
+commit 2d84951297d8e6f1a5afd69a468ac55641e2086f
+Author: mshiyanok <mxshiyanok@mail.ru>
+Date:   Wed Feb 12 21:03:03 2020 +0300
+
+    task1/status.txt
+
+commit e2e4b2a510ff75096ae122351b6c25f05e488f72
+Author: mshiyanok <mxshiyanok@mail.ru>
+Date:   Wed Feb 12 20:45:46 2020 +0300
+
+    add
+
 commit 245a69c4a707d34e886c28b6de592137ec5edf7f
 Author: mshiyanok <mxshiyanok@mail.ru>
 Date:   Wed Feb 12 20:39:10 2020 +0300
@@ -9,4 +45,3 @@ Author: mshiyanok <mxshiyanok@mail.ru>
 Date:   Wed Feb 12 20:38:28 2020 +0300
 
     add
- 
