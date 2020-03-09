@@ -7,7 +7,6 @@ header{
 	right: 0;
 	height: 70px;
 	border-radius: 3px;
-	width: 100%
 }
 body{
 	position:relative;
@@ -123,8 +122,6 @@ input[type=checkbox]{
 	border-width: 1px;
 	border-color: #8C8C8C;
 	height: 100%;
-	width: 100%;
-
 }
 .feed::-webkit-scrollbar-thumb{
 	width: 10px;
@@ -192,6 +189,10 @@ input[type=checkbox]{
 	margin-bottom: 20px;
 	margin-right: 5px;
 }
+.like strong{
+	position: relative;
+	bottom: 2px;
+}
 .button:hover, #add_more:hover{
 	border-width: 2px;
 	border-color: black;
@@ -234,7 +235,7 @@ footer {
   	width: 100%;
   	border-radius: 3px;
   	margin: 0px; 
-  	display: none;
+
 }
 #foot_text{
 	position: relative;
@@ -262,8 +263,6 @@ footer {
 		width: 100%
 	}
 	.feed{
-		position: relative;
-		top:3%;
 		height: 100%;
 		width: 60%;
 		bottom: 50%;
@@ -276,10 +275,6 @@ footer {
 	.filters{
 		text-align: left;
 		height: 100%;
-	}
-	.myinf h4{
-		position: relative;
-	
 	}
 	input[type=text]{	
 	position: relative;
