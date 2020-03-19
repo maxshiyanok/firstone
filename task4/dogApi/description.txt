@@ -1,0 +1,2 @@
+entry data here is breed and number of dogs we require 
+data we get is JSON file with status=success and links to pictures of dogs
