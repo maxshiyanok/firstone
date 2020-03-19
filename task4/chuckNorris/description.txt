@@ -1,0 +1,2 @@
+we can choose number of a joke and number of jokes and also we can change name in a joke by using parameters firstName and lastName
+returns json with type=success and value with jokes
