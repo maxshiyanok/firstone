@@ -1,0 +1,316 @@
+
+header{
+	background-color: #EBF2FF;
+	position: relative;
+	top:0;
+	left: 0;
+	right: 0;
+	height: 70px;
+	border-radius: 3px;
+}
+body{
+	position:relative;
+	display: inline-block;
+	margin: 0px;
+	height: 100%;
+	width: 100%;
+}
+.headel{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo{
+	color: #000;
+	font-size: 200%;
+	font-family: sans-serif;
+	font-stretch: ultra-condensed;
+	font-weight: lighter; 
+	margin-left: 20px;
+}
+.log{
+	color: black;
+	height: 30px;
+	width: 70px;
+	margin:20px;
+	border-radius: 5px;
+	box-shadow: 0 0 3px rgba(0,2,100,0.5);
+	border-width: 1px;
+	border-style: solid;
+}
+.myinf{
+	position: relative;	
+	box-sizing: border-box;
+	display: inline-block;
+	height: 210px;
+	width: 50%;
+	border-radius: 5px;
+	border-style: solid;	
+	border-width: 2px;
+	border-color: #8C8C8C;
+}
+.myinf img{
+	position: relative;
+	margin-left: 10px;
+	max-width: 50%;
+	max-height: 70%;
+	border-style: ridge;
+	border-width: 1px;
+}
+.myinf h4{
+	margin: 5px;
+}
+
+#status{
+	position: relative;
+	height: 70%;
+	width: 40%;
+	display: block;
+	float:right;
+	font-size: 16px;
+	margin-right: 2%;
+}
+#name{
+	position: relative;
+	font-family: monospace;
+	font-size: 18px;
+	margin-left:10px;
+}
+.filt{
+	border-radius: 5px;
+}
+.but_post{
+	position: relative;
+	height: 30px;
+	width: 80px;
+	border-radius:5px;
+	border-width: 1px;
+	border-style: solid;
+	color: black;
+	box-shadow: 0 0 3px rgba(0,2,100,0.5);
+	margin-left: 10px;
+}
+.filters{
+	display: inline-block;
+	text-align: center;
+	height: 210px;
+	margin-top: 0px;
+	float: right;
+	clear: left;
+}
+.filters {
+	font-size: 13px;
+}
+input[type=text]{	
+	position: relative;
+	width: 80%;
+	height: 15px;
+	margin-left: 3%;
+}
+input[type=checkbox]{
+	margin: 1%;
+	width: 15px;
+	height: 15px;
+}
+.feed{
+	display: inline-block;
+	position: relative;
+	margin:0;
+	margin-top: 0px;
+	border-radius: 5px;
+	border-style: solid;	
+	border-width: 1px;
+	border-color: #8C8C8C;
+	height: 100%;
+}
+.feed::-webkit-scrollbar-thumb{
+	width: 10px;
+  	border-radius: 5px;
+  	box-shadow: inset 0 0 6px #8FF8f0;
+  	background-color: #C7E0FF;
+  	border: 1px solid #000;
+}
+.feed::-webkit-scrollbar{
+	width: 7px;
+}
+.post{
+	position: relative;
+	border-radius: 5px;
+	border-style: ridge;
+	border-width: 1px;
+	border-color: #8C8C8C;
+	background-color: #FAFAFA;
+}
+.ava{
+	position: relative;
+	margin-top:10px;
+	margin-left: 10px;
+	height: 60px;
+	width: 60px;
+	border-radius: 100px;
+}
+.post_name{
+	display: inline-block;
+	font-weight: lighter;
+	position: relative;
+	top: -30px	;
+	left: 10px
+}
+.post_date{
+	position: relative;
+	font-size: 10px;
+	font-style: italic;
+}
+.post_hashtags{
+	position: relative;
+	display: inline-block;
+	color:blue;
+}
+.sep_hashtag:hover{
+	color:red;
+}
+.post_mybuttons{
+	position: relative;
+	float: right;
+	height: 20px; 	
+}
+.button{
+	height: 30px;
+	width: 35px;
+	border-radius: 10px;
+	font-size: 20px;	
+	background-color: transparent; 
+	border-color: transparent;
+}
+.like{
+	position: relative;
+	text-align: right;
+	height: 20px; 	
+	margin-bottom: 20px;
+	margin-right: 5px;
+}
+.like strong{
+	position: relative;
+	bottom: 2px;
+}
+.button:hover, #add_more:hover{
+	border-width: 2px;
+	border-color: black;
+}
+.post_text{
+	position: relative;
+	margin:10px;
+}
+.post_images{
+	position: relative;
+	display: inline-block;
+	margin:0px;
+	width: 80%;
+}
+.imag{
+	position: relative;
+	margin-left: 10px;
+	max-width: 100%;
+}
+#add_more{
+	position: relative;
+	margin-left: 40%;
+	margin-bottom: 0px;
+	height:30px;
+}
+.myfoot{
+	background-color: #C7E0FF;
+	position: absolute;
+	height: 70px;
+	border-radius: 3px;
+	width: 99%;
+	top:100%;
+}
+footer {
+	position: relative;
+	background-color:#EBF2FF;
+	display: inline-block;
+	border-width: 3px;
+	border-color: black;
+  	width: 100%;
+  	border-radius: 3px;
+  	margin: 0px; 
+
+}
+#foot_text{
+	position: relative;
+	font-size: 10px;
+	float: right;
+	align-items: center;
+}
+#time_of_smth{
+	float: right;
+	font-size: 10px;
+	font-style: italic;
+}
+@media screen and (max-width: 330px){
+	.myinf{
+		display: block;
+		float:left;
+		width: 100%;
+	}
+	#head-name{
+		display: none;
+	}
+}
+@media screen and (min-width: 600px){
+	header{
+		width: 100%
+	}
+	.feed{
+		height: 100%;
+		width: 60%;
+		bottom: 50%;
+	}
+	.myinf{
+		display: inline-block;
+		float: left;
+		width: 25%;
+	}
+	.filters{
+		text-align: left;
+		height: 100%;
+	}
+	input[type=text]{	
+	position: relative;
+	display: inline-block;
+	width: 70%;
+	height: 15px;
+	margin-left: 3%;
+	margin-bottom: 5%;
+	}
+	input[type=checkbox]{
+	position: relative;
+	margin: 1%;
+	width: 14px;
+	height: 14px;
+	float: right;
+	right: 15%;
+	}
+	.myinf img{
+	position: relative;
+	margin-left: 5%;
+	max-width: 50%;
+	border-style: ridge;
+	border-width: 1px;
+	}
+	.but_post{
+	position: relative;
+	height: 30px;
+	width: 80px;
+	border-radius:5px;
+	border-width: 1px;
+	border-style: solid;
+	color: black;
+	box-shadow: 0 0 3px rgba(0,2,100,0.5);
+	margin-left: 5%;
+	}
+	footer{
+		display: inherit;
+	}
+}
