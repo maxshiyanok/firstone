@@ -1,0 +1,2 @@
+here we can choose number of http cat
+returns an image of a funny cat
