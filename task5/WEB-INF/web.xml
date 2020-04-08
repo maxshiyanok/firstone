@@ -12,43 +12,43 @@
         <url-pattern>/status</url-pattern>
     </servlet-mapping>
     <servlet>
-        <servlet-name>Get</servlet-name>
-        <servlet-class>Get</servlet-class>
+        <servlet-name>GetName</servlet-name>
+        <servlet-class>GetName</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>Get</servlet-name>
+        <servlet-name>GetName</servlet-name>
         <url-pattern>/get</url-pattern>
     </servlet-mapping>
     <servlet>
-        <servlet-name>Page</servlet-name>
-        <servlet-class>Page</servlet-class>
+        <servlet-name>GetNewPage</servlet-name>
+        <servlet-class>GetNewPage</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>Page</servlet-name>
+        <servlet-name>GetNewPage</servlet-name>
         <url-pattern>/page</url-pattern>
     </servlet-mapping>
     <servlet>
-        <servlet-name>Check</servlet-name>
-        <servlet-class>Check</servlet-class>
+        <servlet-name>SendCheckData</servlet-name>
+        <servlet-class>SendCheckData</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>Check</servlet-name>
+        <servlet-name>SendCheckData</servlet-name>
         <url-pattern>/check</url-pattern>
     </servlet-mapping>
     <servlet>
-        <servlet-name>Test2</servlet-name>
-        <servlet-class>Test2</servlet-class>
+        <servlet-name>PageRequestRedirection</servlet-name>
+        <servlet-class>PageRequestRedirection</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>Test2</servlet-name>
+        <servlet-name>PageRequestRedirection</servlet-name>
         <url-pattern>/test2</url-pattern>
     </servlet-mapping>
     <servlet>
-        <servlet-name>Test1</servlet-name>
-        <servlet-class>Test1</servlet-class>
+        <servlet-name>StatusRequestForwarder</servlet-name>
+        <servlet-class>StatusRequestForwarder</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>Test1</servlet-name>
+        <servlet-name>StatusRequestForwarder</servlet-name>
         <url-pattern>/test1</url-pattern>
     </servlet-mapping>
 </web-app>
