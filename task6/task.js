@@ -191,10 +191,10 @@ let func = (function() {
 			let filt;
 			if(filterKeys.length != 0)
 			{
-				filt = new Array(posts.filter(post => post[filterKeys[0]] == filterConfig[filterKeys[0]]));
+				filt = posts.filter(post => post[filterKeys[0]] == filterConfig[filterKeys[0]]);
 			}
 			else
-				filt = new Array(posts);
+				filt = posts;
 			filt.sort(comp);
 			for (let i = skip; i < Math.min(skip + top, filt.length) ; i++) {
 				newPosts.push(filt[i]);
