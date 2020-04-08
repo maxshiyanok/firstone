@@ -191,7 +191,14 @@ let func = (function() {
 			let filt;
 			if(filterKeys.length != 0)
 			{
-				filt = posts.filter(post => post[filterKeys[0]] == filterConfig[filterKeys[0]]);
+				filt = posts.filter(post => {
+					if(filterKeys[0] != 'hashTags')
+						return post[filterKeys[0]] == filterConfig[filterKeys[0]]
+					for(tag of filterConfig.hashTags)
+						if(post.hashTags.indexOf(tag) >= 0)
+							return true;
+					return false;
+				 });
 			}
 			else
 				filt = posts;
