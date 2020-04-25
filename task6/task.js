@@ -195,13 +195,17 @@ let func = (function() {
 					for(let i = 0; i < filterKeys.length; i++){
 						let k = 0;
 						if(filterKeys[i] != 'hashTags')
+						{
 							if(post[filterKeys[i]] != filterConfig[filterKeys[i]])
 								return false;
+						}
 						else
 						{
-							for(tag of filterConfig.hashTags)
-							if(post.hashTags.indexOf(tag) >= 0)
-								k++;
+							for(let tag of filterConfig.hashTags)
+							{
+								if(post.hashTags.indexOf(tag) >= 0)
+									k++;
+							}
 							if(k == 0)
 							return false;
 						}
@@ -262,15 +266,16 @@ let func = (function() {
 			return false;
 		},
 		addOrRemoveLike: function(id, name){
-			let ind = this.getPost(id).likes.findIndex(like => like == name);
+			let likes = this.getPost(id).likes;
+			let ind = likes.findIndex(like => like == name);
 			if(ind == -1)
 			{
-				this.getPost(id).likes.push(name);
+				likes.push(name);
 				return true;
 			}
 			else
 			{
-				this.getPost(id).likes.splice(ind,1);
+				likes.splice(ind,1);
 				return false;
 			}
 		}
