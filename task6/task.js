@@ -239,14 +239,9 @@ let func = (function() {
 			return false;
 		},
 		editPost: function(id,post){
-			let ind = 0;
-			for(let i = 0; i < posts.length;i++){
-				if(posts[i].id == id)
-					{
-						ind = i;
-						break;
-					}
-			}
+			let ind = posts.findIndex(post => post.id == id);
+			if(ind == -1)
+				return false;
 			let editPost = Object.assign({}, posts[ind]);
 			for(let key in post){
 				if(key != 'id' && key != 'createdAt' && key != 'author' && key!='likes')
