@@ -63,6 +63,9 @@ class View{
     		else
     			image.setAttribute('src', "https://upload.wikimedia.org/wikipedia/commons/2/2f/No-photo-m.png");
     		ava.insertBefore(image,document.getElementById('but_post'));
+		if(user.hasOwnProperty('status')){
+    			document.getElementById('status').textContent = user.status;
+    		}
     	}
     	viewFiltHashtags(tweets){
     		let posts = tweets.getPage();
