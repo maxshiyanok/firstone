@@ -180,6 +180,7 @@ var posts = [
 ];
 let user = {
    author: "шаг бобов",
+   status: "it's my status"
 }
 class Witter{
    constructor(posts,user){
