@@ -1,0 +1,2 @@
+SELECT * FROM post
+ORDER by CREATED_AT;

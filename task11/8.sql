@@ -1,0 +1,4 @@
+SELECT NAME from USER
+JOIN POST on POST.USER_ID=USER.USER_ID
+WHERE timestampdiff(day,POST.CREATED_AT,NOW()) = 0
+GROUP BY USER.USER_ID having count(*) >= 3;
