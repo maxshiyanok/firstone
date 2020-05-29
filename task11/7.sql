@@ -1,0 +1,1 @@
+SELECT MIN( timestampdiff(hour,POST.CREATED_AT,NOW())) from POST;
